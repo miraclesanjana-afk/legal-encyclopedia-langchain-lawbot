@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment / secrets
+.env
+*.local
+
+# Data artifacts (large / generated)
+data/raw/*
+!data/raw/.gitkeep
+data/index/*
+!data/index/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

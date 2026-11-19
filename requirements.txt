@@ -1,0 +1,23 @@
+# Core
+flask>=3.1,<4
+python-dotenv>=1.0,<2
+requests>=2.32,<3
+beautifulsoup4>=4.12,<5
+
+# LangChain (LCEL core + Ollama integration + text splitters + FAISS vector store)
+langchain-core>=1.8,<2
+langchain-text-splitters>=1.1,<2
+langchain-ollama>=1.1,<2
+# langchain-community still hosts the FAISS vectorstore; langchain-faiss is
+# currently an empty placeholder package on PyPI.
+langchain-community>=0.4,<1
+faiss-cpu>=1.16,<2
+
+# Optional cloud provider SDKs (only used if you switch LLM_PROVIDER)
+langchain-openai>=1.8,<2
+langchain-anthropic>=1.7,<2
+openai>=1.0,<3
+anthropic>=0.40,<1
+
+# Dev / test
+pytest>=8,<10
