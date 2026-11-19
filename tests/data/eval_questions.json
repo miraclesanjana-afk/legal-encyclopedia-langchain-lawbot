@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is a breach of contract?",
+    "expected_titles": ["Breach of contract", "Contract"]
+  },
+  {
+    "question": "What does due process mean?",
+    "expected_titles": ["Due process"]
+  },
+  {
+    "question": "How does common law differ from civil law?",
+    "expected_titles": ["Common law", "Civil law (legal system)"]
+  },
+  {
+    "question": "What is intellectual property?",
+    "expected_titles": ["Intellectual property"]
+  },
+  {
+    "question": "What is negligence in tort law?",
+    "expected_titles": ["Negligence", "Tort"]
+  }
+]
